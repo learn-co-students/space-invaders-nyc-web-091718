@@ -18,9 +18,9 @@ describe('crewMember.js', () => {
     expect(tristan.currentShip).to.match(/Looking for a Rig/i);
   });
 
-  it("should return 'had no effect' when the crew member tries to use their special ability when not assigned to a ship", () => {
-    expect(tristan.engageWarpDrive()).to.match(/had no effect/i);
-    expect(jon.setsInvisibility()).to.match(/had no effect/i);
-    expect(katie.chargePhasers()).to.match(/had no effect/i);
-  });
+  // it("should return 'had no effect' when the crew member tries to use their special ability when not assigned to a ship", () => {
+  //   expect(tristan.engageWarpDrive()).to.match(/had no effect/i);
+  //   expect(jon.setsInvisibility()).to.match(/had no effect/i);
+  //   expect(katie.chargePhasers()).to.match(/had no effect/i);
+  // });
 });
